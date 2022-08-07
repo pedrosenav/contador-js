@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>
+        <div id="inputs">
+            <span>
+                <label for="start">Início:</label>
+                <input type="number" name="start" id="start">
+            </span>
+            <span>
+                <label for="end">Fim:</label>
+                <input type="number" name="end" id="end">
+            </span>
+            <span>
+                <label for="jump">Passo:</label>
+                <input type="number" name="jump" id="jump" min="1">
+            </span>
+        </div>
+
+        <input type="button" value="Contar" id="botao" onclick="contador()">
+
+        <div id="res"></div>
+        
+    </section>
+    <footer>
+        <p>&copy; Pedro Sena</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
